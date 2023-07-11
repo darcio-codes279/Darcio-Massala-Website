@@ -1,0 +1,73 @@
+:root{
+    --white: #EEE8E2;
+    --green: #27846e;
+    --black: #63473d;
+    --space-small: 25px;
+    --space-medium: 50px;
+    --space-large: 100px;
+    --h1-title-size: 48px;
+    --h2-title-size: 36px;
+    --h3-title-size: 24px;
+    --h4-title-size: 18px;
+    --p-title-size: 12px;
+    --side-space: 5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.layout{
+    position: relative;
+}
+
+body{
+    overflow-x: hidden !important;
+    overflow: overlay;
+    background-color: var(--white);
+    margin-left: var(--side-space)
+  }
+
+h1{
+    color: var(--green);
+    font-size: 48px;
+}
+
+#title{
+    margin-top: var(--space-medium);
+    margin-bottom: var(--space-small);
+}
+
+h2{
+    color: var(--black);
+    font-size: 36px;
+}
+
+h3{
+    color: var(--black);
+    font-size: 24px;
+}
+
+h4{
+    color: var(--black);
+    font-size: 18px;
+}
+
+p{
+    color: var(--black);
+    font-size: 12px;
+}
+
+section{
+    display: block;
+}
+
+.about,
+.skills,
+footer{
+    margin-top: var(--space-large);
+}
+

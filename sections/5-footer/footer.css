@@ -1,0 +1,61 @@
+footer{
+    position: relative;
+    display: block;
+}
+
+
+.contact-title{
+    margin-bottom: 200px;
+}
+
+.contact-txt{
+    margin-top: none;
+    margin-bottom: none;
+}
+
+a:link {
+    color: var(--green);
+    text-decoration: none;
+}
+
+.tag{
+    text-align: left;
+}
+
+.tag.one{
+    margin-top: var(--space-small);
+    margin-bottom: 3px;
+}
+
+.tag.two{
+    margin-bottom: 10px;
+}
+
+.tag.three{
+    margin-bottom: 3px;
+}
+
+.tag.five,
+.tag.six{
+    color: var(--white);
+}
+
+.bottom{
+    background-color: var(--black);
+    width: 107%;
+    margin-left: -20px;
+    margin-top: var(--space-medium);
+}
+
+.logo-2{
+    width: auto;
+    height: 100px;
+    right: 50%;
+    display: relative;
+}
+
+.bottom-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

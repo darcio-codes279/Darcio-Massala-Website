@@ -1,0 +1,38 @@
+
+.hero-pic{
+    height: 312px;
+    width: 300px;
+    object-fit: cover;
+    object-position: 100% -75px;
+}
+.hero-title{
+    margin-top: 100px;
+}
+.hero.layout{
+    margin-left: 5%;
+}
+
+.motto{
+    color: var(--black);
+    font-size: 24px;
+}
+
+
+.hero-pic,
+.hero-name{
+    margin-top: var(--space-small);
+}
+
+.hero-name{
+    margin-bottom: var(--space-small);
+}
+.parent{
+    display: flex;
+    width: 50%;
+}
+.arrow{
+    font-size: 90px;
+    margin-left: 40px;
+    color: var(--green);
+    
+}
