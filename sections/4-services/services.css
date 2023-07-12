@@ -41,7 +41,7 @@ div.skill{
 
 .swiper-container-2 {
     width: auto;
-    height: 700px;
+    height: 300px;
     border-radius: 20px;
     overflow: hidden;
     margin-right: 5%;
@@ -58,12 +58,7 @@ div.skill{
   width: auto;
   height: 400px;
   background-color: var(--green);
-  border: none;
   border-radius: 10px;
-  padding-top: 10px;
-  position: relative;
-  margin: auto;
-  font-family: inherit;
 }
 
 .card span {
@@ -78,5 +73,11 @@ div.skill{
 .card img {
   width: 100%;
   height: auto;
+}
+
+button{
+  background-color: var(--green);
+  width: 100%;
+  height: 100%;
 }
 
