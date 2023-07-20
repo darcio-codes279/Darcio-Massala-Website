@@ -1,22 +1,29 @@
 
 .hero-pic{
-    height: 312px;
-    width: 300px;
+    max-width: 40.2rem;
+    width: 30rem;
     object-fit: cover;
     object-position: 100% -75px;
 }
 .hero-title{
-    margin-top: 100px;
-}
-.hero.layout{
-    margin-left: 5%;
+    padding-top: 10rem;
+    width: 3%
 }
 
-.motto{
+.hero-parent{
+   border: 2px solid red;
+}
+
+.swiper-wrapper{
+    width: 50%;
+}
+
+span.motto{
     color: var(--black);
-    font-size: 24px;
+    font-size: 2.4rem;
+    display: inline-block;
+    width: 30rem;
 }
-
 
 .hero-pic,
 .hero-name{
@@ -31,8 +38,8 @@
     width: 50%;
 }
 .arrow{
-    font-size: 90px;
-    margin-left: 40px;
+    font-size: 9.0rem;
+    margin-right: 70%;
     color: var(--green);
     
 }

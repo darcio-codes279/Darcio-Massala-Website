@@ -29,6 +29,7 @@ a:link {
 
 .tag.two{
     margin-bottom: 10px;
+    font-size: 18px;
 }
 
 .tag.three{
@@ -44,7 +45,7 @@ a:link {
     background-color: var(--black);
     width: 107%;
     margin-left: -20px;
-    margin-top: var(--space-medium);
+    margin-top: var(--space-large);
 }
 
 .logo-2{
