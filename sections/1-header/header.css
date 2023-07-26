@@ -11,5 +11,13 @@ header{
 
 .menu{
     float: right;
-    padding: 2.5rem 0  0 
+    padding: 2.5rem 0  0;
+    text-align: right;
+}
+
+#header-grid{
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-areas: '.logo' '.menu';
 }

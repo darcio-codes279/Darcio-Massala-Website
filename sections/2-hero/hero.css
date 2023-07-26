@@ -1,21 +1,29 @@
+.hero.layout{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
 
 .hero-pic{
     max-width: 40.2rem;
-    width: 30rem;
+    width: min(100%,30rem);
     object-fit: cover;
     object-position: 100% -75px;
 }
 .hero-title{
-    padding-top: 10rem;
-    width: 3%
+    padding-top: 5rem
 }
 
-.hero-parent{
+.hero-grid-child{
    border: 2px solid red;
 }
 
-.swiper-wrapper{
-    width: 50%;
+/* .swiper-wrapper{
+    width: 100%;
+} */
+
+.swiper-slide{
+    width: 100%;
 }
 
 span.motto{
